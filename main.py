@@ -17,18 +17,15 @@ class Annoy:
     def set_annoy_level(self, new_index: int):
         if self._annoy:
             self._annoy_index = new_index
-            if self._annoy_index == 0:
-                self._annoy_index = 5
 
-    def rickroll(self):
+    def golden(self):
         if self._annoy:
             if self._annoy_index <= 3:
                 for i in range(4 ^ self._annoy_index):
-                    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9uXgQ")
+                    webbrowser.open("https://www.youtube.com/watch?v=yebNIHKAC4A&list=RDyebNIHKAC4A&start_radio=1")
             if self._annoy_index == 4:
                 for i in range(200):
-                    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9uXgQ")
+                    webbrowser.open("https://www.youtube.com/watch?v=yebNIHKAC4A&list=RDyebNIHKAC4A&start_radio=1")
             else:
                 while True:
-                    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9uXgQ")
-    
+                    webbrowser.open("https://www.youtube.com/watch?v=yebNIHKAC4A&list=RDyebNIHKAC4A&start_radio=1")
